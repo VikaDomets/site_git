@@ -1,0 +1,90 @@
+/* src/styles/login.module.css */
+
+.main {
+    background: radial-gradient(circle,
+        #A8B7CF 12%,
+        #D8DADC 23%,
+        #123458 68%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 850px;
+  }
+  
+  .loginContainer {
+    background: white;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 440px;
+    height: 370px;
+    margin-top: 25px;
+  }
+  
+  .heading {
+    font-size: 1.2em;
+    margin-bottom: 18px;
+    margin-top: 15px;
+    color: #081C30;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1em;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .invalid {
+    border: 2px solid red;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .checkbox {
+    width: auto;
+    margin-right: 5px;
+    color: #081C30;
+  }
+  
+  .logBt {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .logBt:hover {
+    background: #1a252f;
+  }
+  
+  .registerLink {
+    margin-top: 10px;
+    color: #081C30;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .registerLink a {
+    color: #5288C0;
+    text-decoration: none;
+  }
+  

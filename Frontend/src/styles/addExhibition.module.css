@@ -1,0 +1,170 @@
+/* addExhibition.module.css */
+.addSection {
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 80px;
+  }
+  
+  .blockSaveContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .saveText h1 {
+    font-size: 1.5em;
+    color: #081C30;
+    font-family: "Ysabeau SC", sans-serif;
+    padding-top: 30px;
+  }
+  
+  .save {
+    border-color: #081C30;
+    background-color: #081C30;
+    color: #F1EFEC;
+    font-size: 1.2em;
+    font-family: "Alegreya Sans SC", sans-serif;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .save:hover {
+    background-color: #5288C0;
+    border-color: #5288C0;
+    color: #F1EFEC;
+    box-shadow: none;
+  }
+  
+  .containerInfoAdd {
+    background: #F1EFEC;
+    padding: 30px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .styledForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .styledForm label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+    font-family: "Ysabeau SC", sans-serif;
+    text-align: left;
+    font-size: 1.1em;
+  }
+  
+  .styledForm input[type="text"],
+  .styledForm input[type="file"],
+  .styledForm textarea {
+    padding: 10px 14px;
+    border: 1px solid #F1EFEC;
+    font-size: 1em;
+    text-align: left;
+    font-family: "Alegreya Sans SC", sans-serif;
+    border-bottom: 1px solid #999;
+    background-color: white;
+  }
+  
+  .styledForm input[type="date"] {
+    padding: 10px 14px;
+    font-size: 1em;
+    text-align: left;
+    font-family: "Alegreya Sans SC", sans-serif;
+    margin: 0;
+  }
+  
+  .styledForm input:focus,
+  .styledForm textarea:focus {
+    border-color: #999;
+    outline: none;
+  }
+  
+  .styledForm textarea {
+    resize: vertical;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  .durationGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .dateWrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .dateField {
+    display: flex;
+    align-items: baseline;
+    background-color: white;
+    border-bottom: 1px solid #999;
+    flex: 0 0 27%;
+    min-width: 200px;
+  }
+  
+  .dateInput {
+    width: auto !important;
+    border: none;
+    background: transparent;
+    font-size: 1em;
+    outline: none;
+    font-family: "Alegreya Sans SC", sans-serif;
+    color: #000;
+  }
+  
+  .dateInput::-webkit-calendar-picker-indicator {
+    filter: invert(0.3);
+    cursor: pointer;
+  }
+  
+  .dateLabel {
+    margin-left: 10px!important;
+    font-size: 0.95em!important;
+    color: #6c757d!important;
+  }
+  
+  .imageUpload .imagePreviewContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .previewImage {
+    width: 340px;
+    /* width: auto !important; */
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .fileInput {
+    width: auto !important;
+  }
+  .hint {
+    text-align: left;
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+  }

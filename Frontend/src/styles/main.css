@@ -1,0 +1,15 @@
+/* Глобальні стилі
+body {
+    margin: 0;
+    font-family: 'Alegreya Sans SC', 'Ysabeau SC', sans-serif;
+  }
+  
+  Стилі для переходів 
+  .page-transition {
+    opacity: 0;
+  }
+  
+  .page-transition-active {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }

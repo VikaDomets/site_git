@@ -1,0 +1,146 @@
+.exhibition {
+    padding: 30px 100px;
+  }
+  
+  .exhibition-section {
+    text-align: left;
+  }
+  
+  .text-container {
+    display: flex;
+    gap:50px;
+    padding-bottom: 30px;
+    align-items: baseline;
+    text-align: left;
+    justify-content: flex-start;
+  }
+  
+  .text-container h1 {
+    font-size: 1.5em;
+    color: #081C30;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .text-container h1 strong {
+    color: #204872;
+  }
+  
+  .text-container p {
+    font-size: 1.2em;
+    color: #081C30;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .section-img {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s ease;
+    padding: 25px 0;
+  }
+  
+  .exh-container {
+    display: flex;
+    width: 100%;
+    background-color: rgb(241, 239, 236);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    color: #081C30;
+  }
+  
+  .exh-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .exh-img-item {
+    width: 80%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .exh-img-item:hover {
+    opacity: 0.6;
+  }
+  
+  .exh-text {
+    flex: 2;
+    padding: 40px;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  
+  .exh-text h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .exh-text h2 {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .exh-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .exh-link:hover {
+    color: #204872;
+  }
+  
+  .pagination-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-item button {
+    border: 1px solid #204872;
+    background-color: transparent;
+    color: #204872;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .page-item button:hover {
+    background-color: #204872;
+    color: #fff;
+  }
+  
+  .page-item.active button {
+    background-color: #204872;
+    color: #fff;
+  }
+  .exh-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .exh-img a {
+    display: block;
+    width: 80%;
+  }
+  
+  .exh-img-item {
+    width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .exh-img-item:hover {
+    opacity: 0.6;
+  }
+    
