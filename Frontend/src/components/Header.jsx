@@ -45,8 +45,10 @@ const Header = () => {
             {isAuthenticated ? (
               <div className="d-flex align-items-center flex-column flex-md-row">
                 <div className="user-profile" onClick={toggleMenu}>
-                  <i className="fa-solid fa-user"></i>
-                  <span className="username ms-2">{username}</span>
+                  <Link to="/add-exhibition" className="d-flex align-items-center" onClick={(e) => e.stopPropagation()}>
+                    <i className="fa-solid fa-user"></i>
+                    <span className="username ms-2">{username}</span>
+                  </Link> 
                 </div>
                 <button
                   onClick={() => {

@@ -166,7 +166,9 @@ header {
 .hamburger-menu.active span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -7px);
 }
-
+.d-flex {
+    gap: 6px; 
+}
 /* Медіа-запити */
 
 /* Large Tablet (max-width: 1024px) */
